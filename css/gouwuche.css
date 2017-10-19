@@ -1,0 +1,366 @@
+/*
+* @Author: lenovo
+* @Date:   2017-10-14 22:26:17
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-10-16 09:18:52
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 431747 */
+  src: url('http://at.alicdn.com/t/font_431747_ylpe5f0r61b81tt9.eot');
+  src: url('http://at.alicdn.com/t/font_431747_ylpe5f0r61b81tt9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_431747_ylpe5f0r61b81tt9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_431747_ylpe5f0r61b81tt9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_431747_ylpe5f0r61b81tt9.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* 头部开始 */
+.toubu-box{
+	width: 100%;
+	height: 0.90rem;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 0.17rem;
+	/* border-bottom: 0.01rem solid #46454b; */
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.header-1{
+	width: 0.53rem;
+	height: 0.63rem;
+	background-color: #ffffff;
+}
+.header-1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.header-2{
+	width: 5.00rem;
+	height: 0.64rem;
+	background-color: #b8b8b8;
+	border-radius: 0.45rem;
+	float: left;
+	border: 0;
+}
+.header-2-1{
+	width: auto;
+	height: 0.42rem;
+	background-color: #b8b8b8;
+	margin-left: 1.95rem;
+	margin-top: 0.08rem;
+	float: left;
+	color: #fff;
+	font-size: 0.12rem;
+	border-bottom: 0.03rem solid #fff;
+}
+.header-3{
+	width: 0.57rem;
+	height: 0.64rem;
+	background-color: #ffffff;
+	font-size: 0.16rem;
+	margin-top: 0.1rem;
+}
+.header-3 p{
+	color: #000;
+}
+body{
+	background-color: #f4f4f4;
+}
+/* 头部结束 */
+/* 商品开始 */
+.shangpin{
+	width: 7.26rem;
+	height: 0.87rem;
+	background: #f4f4f4;
+	margin-top: 1.07rem;
+	float: right;
+	border-bottom: 0.01rem solid #000;
+}
+.shangpin1{
+	width: 7.26rem;
+	height: 0.87rem;
+	background: #f4f4f4;
+	margin-top: 2.8rem;
+	float: right;
+	border-bottom: 0.01rem solid #000;
+}
+.shangpin2{
+	width: 7.26rem;
+	height: 0.87rem;
+	background: #f4f4f4;
+	margin-top: 2.8rem;
+	float: right;
+	border-bottom: 0.01rem solid #000;
+}
+.shangpin3{
+	width: 7.26rem;
+	height: 0.87rem;
+	background: #f4f4f4;
+	margin-top: 2.8rem;
+	float: right;
+	border-bottom: 0.01rem solid #000;
+}
+.shangpin-1{
+	width: 0.4rem;
+	height: 0.4rem;
+	background: #f4f4f4;
+	margin-top: 0.25rem;
+	float: left;
+	font-size: 0.12rem;
+}
+.shangpin-2{
+	width: 2.37rem;
+	height: 0.3rem;
+	background: #f4f4f4;
+	float: left;
+	margin-top: 0.25rem;
+	margin-left: 0.24rem;
+	font-size: 0.14rem;
+	position: relative;
+}
+.shangpin-2-1{
+	width: 0.13rem;
+	height: 0.21rem;
+	background: #f4f4f4;
+	position: absolute;
+	bottom: 0.07rem;
+	right: 0;
+}
+.shangpin-3{
+	width: 0.57rem;
+	height: 0.28rem;
+	background: #f4f4f4;
+	float: right;
+	margin-top: 0.27rem;
+	margin-right: 0.3rem;
+	font-size: 0.14rem;
+}
+.shangpin-3 p{
+	color: #000;
+}
+.shangpin-bottom{
+	width: 7.05rem;
+	height: 2.4rem;
+	background: #f4f4f4;
+	margin-top: 1.05rem;
+	overflow: hidden;
+	border-bottom: 0.01rem solid #000;
+}
+.shangpin-bottom1{
+	width: 7.05rem;
+	height: 2.4rem;
+	background: #f4f4f4;
+	margin-top: 1.05rem;
+	overflow: hidden;
+	border-bottom: 0.01rem solid #000;
+	margin-bottom: 2.33rem;
+}
+.shangpin-bottom-1{
+	width: 0.4rem;
+	height: 0.4rem;
+	background: #f4f4f4;
+	margin-top: 0.95rem;
+	font-size: 0.14rem;
+	float: left;
+}
+.shangpin-bottom-2{
+	width: 1.84rem;
+	height: 1.84rem;
+	background: #f4f4f4;
+	float: left;
+	margin-top: 0.07rem;
+	margin-left: 0.25rem;
+}
+.shangpin-bottom-2 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.shangpin-bottom-3{
+	width: 4.31rem;
+	height: 1.96rem;
+	background: #f4f4f4;
+	float: left;
+	margin-top: 0.07rem;
+	margin-left: 0.2rem;
+}
+.shangpin-bottom-3-1{
+	width: 3.36rem;
+	height: 0.59rem;
+	background: #f4f4f4;
+	margin-top: 0.06rem;
+	margin-left: 0.08rem;
+	font-size: 0.12rem;
+	float: left;
+}
+.shangpin-bottom-3-1 p{
+	color: #000;
+}
+.shangpin-bottom-3-2{
+	width: 1.51rem;
+	height: 0.22rem;
+	background: #f4f4f4;
+	margin-left: 0.08rem;
+	margin-top: 1.5rem;
+	font-size: 0.12rem;
+}
+.shangpin-bottom-3-2 p{
+	color: #ec5e2a;
+}
+.shangpin-bottom-3-3{
+	width: 0.27rem;
+	height: 0.27rem;
+	background: #f4f4f4;
+	float: left;
+	margin-top: 0.08rem;
+	margin-left: 0.37rem;
+	font-size: 0.12rem;
+}
+.shangpin-bottom-3-4{
+	width: 0.23rem;
+	height: 0.17rem;
+	background: #f4f4f4;
+	float: right;
+	margin-right: 0.15rem;
+	font-size: 0.12rem;
+	color: #999999;
+}
+/* 商品结束 */
+/* 结算开始 */
+.jiesuan{
+	width: 100%;
+	height: 0.93rem;
+	background: #ffffff;
+	float: left;
+	margin-top: 1.92rem;
+	position: fixed;
+	bottom: 1.13rem;
+	right: 0;
+	z-index: 999;
+}
+.jiesuan-1{
+	width: 0.38rem;
+	height: 0.39rem;
+	background: #ffffff;
+	margin-top: 0.28rem;
+	margin-left: 0.27rem;
+	float: left;
+	font-size: 0.12rem;
+}
+.jiesuan-1 a{
+	color: #000;
+}
+.jiesuan-2{
+	width: 0.57rem;
+	height: 0.22rem;
+	background: #ffffff;
+	margin-top: 0.27rem;
+	margin-left: 0.14rem;
+	float: left;
+	font-size: 0.12rem;
+}
+.jiesuan-3{
+	width: 0.66rem;
+	height: 0.27rem;
+	background: #ffffff;
+	margin-top: 0.27rem;
+	margin-left: 2.35rem;
+	float: left;
+	font-size: 0.12rem;
+}
+.jiesuan-4{
+	width: 0.42rem;
+	height: 0.23rem;
+	background: #ffffff;
+	margin-top: 0.27rem;
+	margin-left: 0.37rem;
+	float: left;
+	font-size: 0.12rem;
+}
+.jiesuan-4 p{
+	color: orange;
+}
+.jiesuan-5{
+	display: block;
+	width: 2.03rem;
+	height: 0.93rem;
+	background: orange;
+	margin-left: 0.3rem;
+	float: left;
+	font-size: 0.12rem;
+	text-align: center;
+	line-height: 0.93rem;
+}
+.jiesuan-5 p{
+	color: #fff;
+}
+/* 结算结束 */
+/* 底部开始 */
+.bottom-box{
+	width: 100%;
+	height: 0.98rem;
+	background-color: #bcb5b1;
+	padding-top: 0.15rem;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 999;
+}
+.bottom-1{
+	width: 0.57rem;
+	height: 0.74rem;
+	background-color: #bcb5b1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+}
+.bottom-2{
+	width: 0.57rem;
+	height: 0.74rem;
+	background-color: #bcb5b1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+}
+.bottom-1-1{
+	width: 100%;
+	height: 0.41rem;
+	background-color: #bcb5b1;
+}
+.bottom-1-2{
+	width: 100%;
+	height: 0.2rem;
+	background-color: #bcb5b1;
+	font-size: 0.12rem;
+	color: #575757;
+}
+.bottom-1-2 a{
+	color: #444444;
+}
+.bottom-1 .iconfont i{
+	font-size: 0.5rem;
+	margin-left: 0.04rem;
+	color: #444444;
+}
+.bottom-2 .iconfont i{
+	font-size: 0.5rem;
+	margin-left: 0.04rem;
+	color: orange;
+}
+.bottom-2 .bottom-1-2 a{
+	color: orange;
+}
+/* 底部结束 */

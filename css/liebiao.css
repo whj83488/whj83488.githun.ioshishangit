@@ -1,0 +1,198 @@
+/*
+* @Author: lenovo
+* @Date:   2017-10-15 15:26:51
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-10-19 16:17:29
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 431747 */
+  src: url('http://at.alicdn.com/t/font_431747_9osvx7vmckr9t3xr.eot');
+  src: url('http://at.alicdn.com/t/font_431747_9osvx7vmckr9t3xr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_431747_9osvx7vmckr9t3xr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_431747_9osvx7vmckr9t3xr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_431747_9osvx7vmckr9t3xr.svg#iconfont') format('svg');
+}
+/* 头部开始 */
+.toubu-box{
+	width: 100%;
+	height: 0.90rem;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 0.17rem;
+	/* border-bottom: 0.01rem solid #46454b; */
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.header-1{
+	width: 0.57rem;
+	height: 0.63rem;
+	background-color: #ffffff;
+	float: left;
+	font-size: 0.12rem;
+	margin-top: 0.17rem;
+}
+.header-1 a i{
+	color: #000;
+}
+.header-3 a i{
+	color: #000;
+}
+.header-2{
+	width: 5.00rem;
+	height: 0.64rem;
+	background-color: #b8b8b8;
+	border-radius: 0.45rem;
+	float: left;
+	border: 0;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.64rem;
+	color: #fff;
+}
+.header-3{
+	width: 0.53rem;
+	height: 0.64rem;
+	background-color: #ffffff;
+	font-size: 0.12rem;
+	margin-top: 0.13rem;
+}
+body{
+	background-color: #f4f4f4;
+}
+/* 头部结束 */
+/* 列表开始 */
+.liebiao{
+	width: 100%;
+	height: 2.53rem;
+	background: #ffffff;
+	margin-top: 1.07rem;
+	overflow: hidden;
+	border-top: 0.01rem solid #f4f4f4;
+	/* border-bottom: 0.01rem solid #f4f4f4; */
+}
+.liebiao1{
+	width: 100%;
+	height: 2.53rem;
+	background: #ffffff;
+	overflow: hidden;
+	border-top: 0.01rem solid #f4f4f4;
+	/* border-bottom: 0.01rem solid #f4f4f4; */
+}
+.liebiao2{
+	width: 100%;
+	height: 2.53rem;
+	background: #ffffff;
+	overflow: hidden;
+	border-top: 0.01rem solid #f4f4f4;
+	margin-bottom: 1.2rem;
+	border-bottom: 0.01rem solid #f4f4f4;
+}
+.liebiao-1{
+	width: 3.47rem;
+	height: 2.17rem;
+	background: #ffffff;
+	margin-top: 0.18rem;
+	float: left;
+}
+.liebiao-1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.liebiao-2{
+	width: 3.52rem;
+	height: 0.78rem;
+	background: #ffffff;
+	float: left;
+	margin-top: 0.37rem;
+	margin-left: 0.24rem;
+	font-size: 0.14rem;
+}
+.liebiao-3{
+	width: 1.79rem;
+	height: 0.23rem;
+	background: #ffffff;
+	float: left;
+	margin-top: 0.83rem;
+	margin-left: 0.24rem;
+	font-size: 0.12rem;
+}
+.liebiao-3 p{
+	color: #ec5e2a;
+}
+.liebiao-4{
+	width: 1.63rem;
+	height: 0.4rem;
+	background: #e7f2fe;
+	float: left;
+	margin-left: 0.15rem;
+	margin-top: 0.75rem;
+	border-radius: 0.5rem;
+	font-size: 0.12rem;
+}
+.liebiao-4 a{
+	color: #3a84f7;
+}
+/* 列表结束 */
+/* 底部开始 */
+.bottom-box{
+	width: 100%;
+	height: 0.98rem;
+	background-color: #bcb5b1;
+	padding-top: 0.15rem;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 999;
+}
+.bottom-1{
+	width: 0.57rem;
+	height: 0.74rem;
+	background-color: #bcb5b1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+}
+.bottom-2{
+	width: 0.57rem;
+	height: 0.74rem;
+	background-color: #bcb5b1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+}
+.bottom-1-1{
+	width: 100%;
+	height: 0.41rem;
+	background-color: #bcb5b1;
+}
+.bottom-1-2{
+	width: 100%;
+	height: 0.2rem;
+	background-color: #bcb5b1;
+	font-size: 0.12rem;
+	color: #575757;
+}
+.bottom-1-2 a{
+	color: #444444;
+}
+.bottom-1 .iconfont i{
+	font-size: 0.5rem;
+	margin-left: 0.04rem;
+	color: #444444;
+}
+.bottom-2 .iconfont i{
+	font-size: 0.5rem;
+	margin-left: 0.04rem;
+	color: orange;
+}
+.bottom-2 .bottom-1-2 a{
+	color: orange;
+}
+/* 底部结束 */

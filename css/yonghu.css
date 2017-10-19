@@ -1,0 +1,286 @@
+/*
+* @Author: lenovo
+* @Date:   2017-10-15 11:43:57
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-10-16 09:20:08
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 431747 */
+  src: url('http://at.alicdn.com/t/font_431747_wsmqehipbilzncdi.eot');
+  src: url('http://at.alicdn.com/t/font_431747_wsmqehipbilzncdi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_431747_wsmqehipbilzncdi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_431747_wsmqehipbilzncdi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_431747_wsmqehipbilzncdi.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* 头部开始 */
+.toubu-box{
+	width: 100%;
+	height: 0.90rem;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 0.17rem;
+	/* border-bottom: 0.01rem solid #46454b; */
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.header-1{
+	width: 0.57rem;
+	height: 0.63rem;
+	background-color: #ffffff;
+	font-size: 0.12rem;
+	margin-top: 0.13rem;
+}
+.header-1 p{
+	color: #000;
+}
+.header-2{
+	width: 5.00rem;
+	height: 0.64rem;
+	background-color: #ffffff;
+	border-radius: 0.45rem;
+	float: left;
+	border: 0;
+}
+.header-3{
+	width: 0.53rem;
+	height: 0.64rem;
+	background-color: #ffffff;
+	font-size: 0.12rem;
+	margin-top: 0.13rem;
+}
+.header-3 a{
+	color: #000;
+}
+body{
+	background-color: #f4f4f4;
+}
+/* 头部结束 */
+/* 信息开始 */
+.xinxi{
+	width: 100%;
+	height: 1.78rem;
+	background: #f99b3e;
+	margin-top: 1.07rem;
+	overflow: hidden;
+}
+.xinxi-1{
+	width: 1.25rem;
+	height: 1.25rem;
+	background: red;
+	border-radius: 50%;
+	margin-top: 0.25rem;
+	float: left;
+	overflow: hidden;
+	margin-left: 0.2rem;
+}
+.xinxi-1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.xinxi-2{
+	width: 1.43rem;
+	height: 0.35rem;
+	background: #f99b3e;
+	float: left;
+	margin-top: 0.7rem;
+	margin-left: 0.35rem;
+	font-size: 0.12rem;
+	color: #fff;
+}
+.xinxi-3{
+	width: 2.28rem;
+	height: 0.6rem;
+	background: #f6ca4c;
+	float: left;
+	margin-top: 0.55rem;
+	margin-left: 1.98rem;
+	border-top-left-radius: 0.8rem;
+	border-bottom-left-radius: 0.8rem;
+	font-size: 0.12rem;
+	text-align: center;
+	line-height: 0.6rem;
+	color: #fff;
+}
+.xinxi-4{
+	width: 100%;
+	height: 1.21rem;
+	background: #fff;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+}
+.xinxi-4-1{
+	width: 0.85rem;
+	height: 0.7rem;
+	background: #fff;
+	margin-top: 0.27rem;
+	font-size: 0.12rem;
+	color: #666666;
+}
+.xinxi-4-1 p:first-child{
+	text-align: center;
+}
+.xinxi-5{
+	width: 100%;
+	height: 0.9rem;
+	background: #ffffff;
+	margin-top: 0.2rem;
+	overflow: hidden;
+	border-bottom: 0.01rem solid #f4f4f4;
+}
+.xinxi-5-1{
+	width: 1.27rem;
+	height: 0.3rem;
+	background: #ffffff;
+	margin-top: 0.29rem;
+	margin-left: 0.25rem;
+	font-size: 0.12rem;
+	float: left;
+}
+.xinxi-5-1 p{
+	color: #999999;
+}
+.xinxi-5-2{
+	width: 1.69rem;
+	height: 0.24rem;
+	background: #ffffff;
+	margin-top: 0.29rem;
+	margin-left: 3.66rem;
+	float: left;
+	font-size: 0.12rem;
+}
+.xinxi-5-2 p{
+	color: #999999;
+}
+.xinxi-5-3{
+	width: 0.14rem;
+	height: 0.24rem;
+	background: #ffffff;
+	margin-top: 0.29rem;
+	margin-left: 0.18rem;
+	float: left;
+	font-size: 0.12rem;
+}
+.xinxi-5-3 a{
+	color: #999999;
+}
+.xinxi-6{
+	width: 100%;
+	height: 1.8rem;
+	background: #ffffff;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+}
+.xinxi-6-1{
+	width: 0.71rem;
+	height: 0.98rem;
+	background: #ffffff;
+	margin-top: 0.45rem;
+}
+.xinxi-6-1-1{
+	width: 0.42rem;
+	height: 0.39rem;
+	background: #ffffff;
+	margin: 0 auto;
+	font-size: 0.12rem;
+}
+.xinxi-6-1-1 a{
+	color: #000;
+}
+.xinxi-6-1-2{
+	width: 0.85rem;
+	height: 0.23rem;
+	background: #ffffff;
+	margin-top: 0.3rem;
+	font-size: 0.12rem;
+}
+.bibei{
+	width: 100%;
+	height: 1.79rem;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-around;
+	border-top: 0.01rem solid #f4f4f4;
+}
+.bibei1{
+	width: 100%;
+	height: 1.79rem;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-around;
+	border-top: 0.01rem solid #f4f4f4;
+	margin-bottom: 1.2rem;
+}
+/* 信息结束 */
+/* 底部开始 */
+.bottom-box{
+	width: 100%;
+	height: 0.98rem;
+	background-color: #bcb5b1;
+	padding-top: 0.15rem;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 999;
+}
+.bottom-1{
+	width: 0.57rem;
+	height: 0.74rem;
+	background-color: #bcb5b1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+}
+.bottom-2{
+	width: 0.57rem;
+	height: 0.74rem;
+	background-color: #bcb5b1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+}
+.bottom-1-1{
+	width: 100%;
+	height: 0.41rem;
+	background-color: #bcb5b1;
+}
+.bottom-1-2{
+	width: 100%;
+	height: 0.2rem;
+	background-color: #bcb5b1;
+	font-size: 0.12rem;
+	color: #575757;
+}
+.bottom-1-2 a{
+	color: #444444;
+}
+.bottom-1 .iconfont i{
+	font-size: 0.5rem;
+	margin-left: 0.04rem;
+	color: #444444;
+}
+.bottom-2 .iconfont i{
+	font-size: 0.5rem;
+	margin-left: 0.04rem;
+	color: orange;
+}
+.bottom-2 .bottom-1-2 a{
+	color: orange;
+}
+/* 底部结束 */
